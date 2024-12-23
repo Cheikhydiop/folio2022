@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="text-2xl font-bold mb-4">Mamadou Gueye</h3>
+            <h3 className="text-2xl font-bold mb-4">Cheikh Diop</h3>
             <p className="text-gray-400 mb-4">
               Développeur Full Stack Junior passionné par les nouvelles technologies
             </p>
@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-right"
           >
-            <p className="text-gray-400">© {new Date().getFullYear()} Mamadou Gueye</p>
+            <p className="text-gray-400">© {new Date().getFullYear()} Cheikh Diop</p>
             <p className="text-gray-400">Tous droits réservés</p>
           </motion.div>
         </div>
