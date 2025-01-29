@@ -74,7 +74,7 @@ import {
       category: 'Frontend',
       image: 'images/projects/tailor.png',
       date: 'Octobre 2024',
-      demo: 'https://github.com/'
+      demo: 'https://tailor-hazt.onrender.com/api-docs/'
     },
     {
       id: 'gestion-dettes',
@@ -94,7 +94,8 @@ import {
       link: 'https://github.com/Cheikhydiop/Gstudent',
       category: 'Backend',
       image: 'images/projects/odc.png',
-      date: 'Septembre 2024'
+      date: 'Septembre 2024',
+      demo:"https://diop-cheikhr.onrender.com/swagger/index.html#/"
     },
     {
       id: 'gestion-apprenants-avril',
