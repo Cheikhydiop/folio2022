@@ -209,6 +209,7 @@ import {
         // SQL
         "PostgreSQL",
         "MySQL",
+         "Oracle",
         // NoSQL
         "MongoDB",
         // Cloud Databases
