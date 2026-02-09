@@ -71,7 +71,7 @@ const CV = () => {
                 <h3 className="text-3xl font-bold text-slate-900 dark:text-white">DIOP CHEIKH</h3>
                 <p className="text-lg font-medium text-blue-600 dark:text-blue-400 flex items-center gap-2">
                   <Zap className="w-5 h-5" />
-                  Développeur Full-Stack & Expert IoT
+                  Développeur Full-Stack
                 </p>
                 <div className="flex flex-wrap gap-4 text-sm text-slate-500 dark:text-slate-400 mt-2">
                   <span className="flex items-center gap-1.5"><MapPin className="w-4 h-4" /> {contactInfo.address}</span>
@@ -126,10 +126,9 @@ const CV = () => {
                     <Globe className="w-4 h-4" /> À Propos
                   </h4>
                   <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-sm md:text-base">
-                    Développeur passionné spécialisé en solutions Full-Stack et IoT.
+                    Développeur passionné spécialisé en solutions Full-Stack.
                     Expert NestJS, React et Flutter, je crée des architectures performantes
-                    et sécurisées (RBAC, SOLID) pour des dashboard intelligents et
-                    applications métiers à fort impact.
+                    et sécurisées (RBAC, SOLID) pour des applications métiers à fort impact.
                   </p>
                 </div>
 
@@ -152,7 +151,7 @@ const CV = () => {
                       </span>
                     ))}
                     <span className="px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-300 border border-emerald-100 dark:border-emerald-800/50">
-                      IoT Architecture
+                      Software Architecture
                     </span>
                   </div>
                 </div>

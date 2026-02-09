@@ -21,7 +21,7 @@ export const ModernCV: React.FC = () => {
             <header className="flex justify-between items-start border-b-2 border-slate-900 pb-8 mb-8">
                 <div>
                     <h1 className="text-5xl font-black tracking-tighter uppercase mb-2">Cheikh Diop</h1>
-                    <h2 className="text-xl font-bold text-blue-600 uppercase tracking-widest">Architecte Logiciel Full Stack & Expert IoT</h2>
+                    <h2 className="text-xl font-bold text-blue-600 uppercase tracking-widest">Architecte Logiciel Full Stack</h2>
                 </div>
                 <div className="text-right text-sm space-y-1 font-medium">
                     <p className="flex items-center justify-end gap-2 text-slate-600 font-bold">
@@ -47,7 +47,7 @@ export const ModernCV: React.FC = () => {
                         <h3 className="text-lg font-black uppercase mb-4 border-l-4 border-slate-900 pl-3">Profil Professionnel</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
                             Développeur Full Stack Senior avec une expertise approfondie en **Node.js, TypeScript et React**.
-                            Spécialiste des architectures évolutives (**Layered Architecture, SOLID**) et des solutions innovantes (**AI/RAG, IoT**).
+                            Spécialiste des architectures évolutives (**Layered Architecture, SOLID**) et des solutions innovantes (**AI/RAG**).
                             Reconnu pour ma capacité à transformer des besoins métier complexes en produits digitaux performants et sécurisés.
                             Maîtrise complète du cycle de vie DevOps, des tests automatisés et de la qualité logicielle.
                         </p>

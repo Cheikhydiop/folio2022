@@ -132,7 +132,7 @@ function welcome() {
               </h1>
               <h2 className="text-2xl md:text-3xl font-light tracking-wide text-gray-800 dark:text-white/90">
                 <span className="text-emerald-600 dark:text-green-400">&lt;</span>
-                Développeur Full Stack & IoT
+                Développeur Full Stack
                 <span className="text-emerald-600 dark:text-green-400">/&gt;</span>
               </h2>
             </div>
