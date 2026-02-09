@@ -1,7 +1,7 @@
 // src/components/Portfolio.tsx
 import { useTheme } from '@/hooks/useTheme';
 import { Layout } from './layout';
-import { 
+import {
   Hero,
   Projects,
   Skills,
@@ -27,10 +27,11 @@ const Portfolio = () => {
     <Layout darkMode={darkMode} setDarkMode={setDarkMode}>
       <Hero />
       <Projects projects={projectList} />
-      <Skills /> 
+      <Skills />
       <Education items={educationList} />
       <Experience items={experienceList} />
       <Certifications items={certificationList} />
+      <CV />
       <References />
       <Contact />
     </Layout>

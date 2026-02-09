@@ -1,11 +1,11 @@
 import React from 'react';
-import { 
-  Mail, 
-  MapPin, 
-  GithubIcon, 
-  LinkedinIcon, 
-  Code2, 
-  Terminal, 
+import {
+  Mail,
+  MapPin,
+  GithubIcon,
+  LinkedinIcon,
+  Code2,
+  Terminal,
   Globe,
   Database,
   Cpu,
@@ -22,7 +22,7 @@ const HeroSection = () => {
   const codeSnippet = `
 // Hello World
 function welcome() {
-  return "Hello, I'm Mamadou!";
+  return "Hello, I'm Cheikh!";
 }`;
 
   const techIcons = [
@@ -84,19 +84,19 @@ function welcome() {
           <div className={cn(
             "relative p-3 rounded-lg backdrop-blur-sm border",
             "transform transition-all duration-300",
-            "bg-white/20 border-gray-200/50", 
+            "bg-white/20 border-gray-200/50",
             "dark:bg-gray-800/20 dark:border-gray-700/30"
           )}>
             <div className={cn(
-              "text-blue-600/40 dark:text-blue-400/50" 
+              "text-blue-600/40 dark:text-blue-400/50"
             )}>
               {item.icon}
             </div>
             <span className={cn(
               "absolute -bottom-6 left-1/2 -translate-x-1/2 text-xs",
               "opacity-0 group-hover:opacity-100 transition-opacity",
-              "text-gray-700/30 dark:text-gray-300/50", 
-              "px-2 py-1 rounded bg-white/20 dark:bg-gray-800/20", 
+              "text-gray-700/30 dark:text-gray-300/50",
+              "px-2 py-1 rounded bg-white/20 dark:bg-gray-800/20",
               "shadow-lg"
             )}>
               {item.label}
@@ -132,7 +132,7 @@ function welcome() {
               </h1>
               <h2 className="text-2xl md:text-3xl font-light tracking-wide text-gray-800 dark:text-white/90">
                 <span className="text-emerald-600 dark:text-green-400">&lt;</span>
-                Développeur Full Stack Junior
+                Développeur Full Stack & IoT
                 <span className="text-emerald-600 dark:text-green-400">/&gt;</span>
               </h2>
             </div>
@@ -157,7 +157,7 @@ function welcome() {
             <div className="flex flex-wrap gap-4">
               {[
                 { href: "https://github.com/Cheikhydiop", icon: <GithubIcon />, label: "GitHub" },
-                { href: "https://linkedin.com/in/Cheikh_Diop", icon: <LinkedinIcon />, label: "LinkedIn" }
+                { href: "https://linkedin.com/in/diop-cheikh-988413240", icon: <LinkedinIcon />, label: "LinkedIn" }
               ].map((social, index) => (
                 <a
                   key={index}
@@ -343,8 +343,6 @@ function welcome() {
               </div>
             </div>
           </div>
-      <CV />
-
         </div>
       </div>
 
